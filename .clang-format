@@ -1,0 +1,105 @@
+#基础样式
+#BasedOnStyle: LLVM
+
+# true 声明变量名连续对齐
+
+# 行尾注释对齐
+AlignTrailingComments: true
+
+# 不允许较短 block 在同一行
+AllowShortBlocksOnASingleLine: false
+
+# 不允许较短 case 在同一行
+AllowShortCaseLabelsOnASingleLine: false
+
+# 允许空函数一行显示
+AllowShortFunctionsOnASingleLine: Empty
+
+# 不支持一行的条件判断语句
+AllowShortIfStatementsOnASingleLine: false
+
+# 在未封闭(括号的开始和结束不在同一行)的括号中的代码是否对齐, 例如
+AlignAfterOpenBracket: true
+
+# 不支持一行的循环体
+AllowShortLoopsOnASingleLine: false
+
+# 圆括号的换行方式
+BreakBeforeBraces: Attach
+
+# 在构造函数初始化时按逗号断行，并以冒号对齐
+BreakConstructorInitializersBeforeComma: true
+
+# 每行字符的长度
+ColumnLimit: 120
+
+#在续行(\  
+#     下一行)时的缩进长度
+ContinuationIndentWidth: 4
+
+# 格式兼容C++11
+Cpp11BracedListStyle: true
+
+# 禁用当前format文件
+DisableFormat: false
+
+# switch的case缩进
+IndentCaseLabels: true
+
+# 缩进宽度
+IndentWidth: 4
+
+# 去除block开始的空格
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+# 该模板对C, C++, ObjectiveC, ObjectiveC++都有效
+Language: Cpp
+
+# 最大连续空行数为1
+MaxEmptyLinesToKeep: 1
+
+# 针对OC的block的缩进宽度
+ObjCBlockIndentWidth: 4
+
+# 针对OC的属性名后加空格
+ObjCSpaceAfterProperty: true
+
+# 针对OC的协议列表前加空格
+ObjCSpaceBeforeProtocolList: true
+
+#最多能超出ColumnLimit多少个字符
+PenaltyExcessCharacter: 0
+
+# 指针向右对齐: 即靠近指针变量名
+PointerAlignment: Right
+
+# 括号后加空格
+SpaceAfterCStyleCast: true
+
+# 赋值运算符前加空格
+SpaceBeforeAssignmentOperators: true
+
+# 只在条件表示示括号前加上空格
+SpaceBeforeParens: ControlStatements
+
+# 行尾的注释前加1个空格
+SpacesBeforeTrailingComments: 1
+
+# 是否在容器字面量(@[ @"1", @"2" ])中插入空格
+SpacesInContainerLiterals: false
+
+# 不在括号里加空格
+SpaceInEmptyParentheses: false
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# 格式兼容C++11
+Standard: Cpp11
+
+# 函数是否可以在同一行
+BinPackArguments: false
+BinPackParameters: false
+
+
